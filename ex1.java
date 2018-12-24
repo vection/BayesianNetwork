@@ -93,48 +93,7 @@ public class ex1 {
 				}
 			}
 		} 
-		//ShowNetwork(Network);
-		System.out.println("\n");
-		//System.out.println(GetCPT(Network,"P(B=true)"));
-		//	getFullQuery(Network, "P(B=true|J=true,M=true)");
-		//System.out.println(GetResults("P(B=true|J=true,M=true)", Network));
-		//System.out.println(GetResults("P(L=true|I=true,D=true)", Network));
-		//System.out.println(GetResults("P(L=true|I=true,D=true)", Network));
-		//System.out.println(VariableElimination("P(B=true|J=true,M=true)", Network));
-		//System.out.println(VariableElimination("P(L=true|I=true,D=true)", Network));
-		//System.out.println(VariableElimination("P(A=true|C=run)", Network));
-		
-		
-		//VariableElimination p = new VariableElimination("P(C=run|B=set,A=true)", Network);
-		
-		//VariableElimination p3 = new VariableElimination("P(A=true|C=run)", Network);
-		//VariableElimination p = new VariableElimination("P(J=true|B=true)", Network);
-		
-		//VariableElimination p2 = new VariableElimination("P(B=true|J=true,M=true)", Network);
-		/*VariableElimination p9 = new VariableElimination("P(A=true|C=true)",Network, 0);
-		System.out.println(p9.final_answer);
-		
-		/*VariableElimination p10 = new VariableElimination("P(M=false|A=female,D=d)",Network, 1);
-		System.out.println(p10.final_answer);
-		VariableElimination p5 = new VariableElimination("P(M=false|A=female)",Network, 0);
-		System.out.println(p5.final_answer);
-		/*VariableElimination p4 = new VariableElimination("P(D=true|A=true,B=false)",Network, 1);
-		System.out.println(p4.final_answer);
-		//VariableElimination p9 = new VariableElimination("P(X=true|B=false)",Network);
-		//System.out.println(p9.query +"= "+p9.final_answer);
-		/*VariableElimination p0 = new VariableElimination("P(L=true|D=true)",Network);
-		System.out.println(p0.query +"= "+p0.final_answer);
-		VariableElimination p3 = new VariableElimination("P(G=medium|S=false)",Network);
-		System.out.println(p3.query +"= "+p3.final_answer);
-        
-		
-
-		System.out.println(GetResults("P(L=true|I=true,D=true)", Network));
-		
-		System.out.println(GetResults("P(G=medium|S=false)", Network));
-		System.out.println(GetResults("P(L=true|D=true)", Network));
-		
-*/
+		ShowNetwork(Network);
 	}
 
     /**
